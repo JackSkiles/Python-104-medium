@@ -1,6 +1,10 @@
+
+# Prompts user for phrase input
 user_input = input('Please enter a phrase of your choosing: ').upper()
+# Creates an emtpy string to add phrase pieces to
 full_phrase = ''
 
+# Should loop through the rang of the users input one point at a time, replacing any string with a new string.
 for i in range(len(user_input)):
    if user_input[i] == 'A':
        full_phrase += '4' 
